@@ -22,7 +22,6 @@ class ChildTest : ParentTest() {
 
     @Test
     fun testAppProperty() {
-        println("!!!!!!!! ${ appPropertyComponent.appProperty}")
         assertEquals("Child", appPropertyComponent.appProperty)
     }
 
