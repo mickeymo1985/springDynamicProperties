@@ -1,0 +1,2 @@
+app:
+  property: "Hello, Spring Boot with Kotlin!"
