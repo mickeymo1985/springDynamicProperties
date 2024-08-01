@@ -1,8 +1,8 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.9.0"
-    kotlin("plugin.spring") version "1.9.0" // Убедитесь, что этот плагин указан, если требуется для интеграции с Spring
+    kotlin("jvm") version "1.9.25"
+    kotlin("plugin.spring") version "1.9.25"
 }
 
 group = "com.example"
@@ -15,7 +15,7 @@ repositories {
 
 val springBootVersion = "3.1.4" // parent
 //val springBootVersion = "3.1.3" // child
-val kotlinVersion = "1.9.0"
+val kotlinVersion = "1.9.25"
 val jacksonVersion = "2.15.2"
 val junitVersion = "5.10.0"
 
